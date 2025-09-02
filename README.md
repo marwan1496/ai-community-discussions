@@ -79,14 +79,14 @@ A powerful WordPress plugin that enables AI-powered community discussions with i
 
 #### Getting Gemini API Credentials
 
-1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+1. Visit [Google AI Studio](https://aistudio.google.com/apikey)
 2. Create a new API key
 3. Copy the API key and endpoint URL
 4. Enter both in the plugin settings
 
 #### API Endpoint Format
 ```
-https://generativelanguage.googleapis.com/v1beta/models/gemini-pro
+Example: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash
 ```
 
 ## 📖 Usage
