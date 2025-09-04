@@ -96,7 +96,6 @@ class AICommunityDiscussions_Admin
         }
 
         $post_id = isset($_POST['postId']) ? absint($_POST['postId']) : 0;
-        $nonce = isset($_POST['nonce']) ? sanitize_text_field(wp_unslash($_POST['nonce'])) : '';
         $content_from_client = isset($_POST['content']) ? wp_kses_post(wp_unslash($_POST['content'])) : '';
 
         if (!wp_verify_nonce($_POST['nonce'], nonceAction)) {
